@@ -153,7 +153,7 @@ def filter_recipient_list(lst):
 def make_message(subject="", body="", from_email=None, to=None, bcc=None,
                  attachments=None, headers=None, priority=None):
     """
-    Creates a simple message for the email parameters supplied.
+    Creates a simple message for the email parameters supplied..
     The 'to' and 'bcc' lists are filtered using DontSendEntry.
 
     If needed, the 'email' attribute can be set to any instance of EmailMessage
